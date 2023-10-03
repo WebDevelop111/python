@@ -1,5 +1,7 @@
+from time import sleep
+
 print("""
-  \u001b[20A_-o#&&*''''?d:>b\n
+_-o#&&*''''?d:>b\n
           _o/"`''  '',, dMF9MMMMMHo_
        .o&#'        `"MbHMMMMMMMMMMMHo.
      .o"" '         vodM*$&&HMMMMMMMMMM?.
@@ -22,9 +24,10 @@ HMMMMMMMHo                 `MMMMMMMMMT       .\n\
         `~,   .                     ./\n\
             . _                  .-\n\
               --._,dd###pp="""  """')
+sleep(2)
 
 print(""" 
-  \u001b[20A_v->#H#P? "':o<>\_
+_v->#H#P? "':o<>\_
           .,dP` `''  "'-o.+H6&MMMHo_
         oHMH9'         `?&bHMHMMMMMMHo.
       oMP"' '           ooMP*#&HMMMMMMM?.
@@ -48,3 +51,5 @@ print("""
           ' .  _                 .-`\n\
               '`~\.__,obb#q==~'''\n\
               """)
+sleep(2)
+print('[] | THE-END CODES!')
